@@ -64,7 +64,7 @@ This version focuses on basic Telegram-AI integration. Different versions could 
        ```
    - Set up a cron job to run the script every minute to receive and send messages.
      ```
-     0/1 * * * * php /path/to/index.php
+     * * * * * php /path/to/index.php
      ```
 
 5. **Testing:**

@@ -46,7 +46,7 @@ This version focuses on basic Telegram-AI integration. Different versions could 
        curl -fsSL https://ollama.com/install.sh | sh
        ```
      - After installing Ollama, select a model according to your preference. The list of models can be found here: https://ollama.com/library
-     - Recommended mistral: `ollama run mistral`
+     - I recommend Mistral. To download it, run: `ollama run mistral` . In code is currently tinydolphin as I could run it using CPU on web server I was testing it: `ollama run tinydolphin`
    - **Mistral:**
      - Sign up for a Mistral account to obtain the API token.
 

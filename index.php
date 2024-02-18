@@ -30,7 +30,7 @@ $config['mistral']['mistral-tiny']['output'] = '0.00042';
 //mistral-medium	2.5€ / 1M tokens	7.5€ / 1M tokens
 
 $config['ollama']['apikey'] = 'none';
-$config['ollama']['url'] = 'http://192.168.2.20:11434/v1/chat/completions';
+$config['ollama']['url'] = 'http://127.0.0.1:11434/v1/chat/completions';
 $config['ollama']['model'] = 'tinydolphin'; 
 $config['ollama']['tinydolphin']['input'] = '0';
 $config['ollama']['tinydolphin']['output'] = '0';

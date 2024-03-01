@@ -9,7 +9,7 @@ $db = new SQLite3('telebot_ai.db');
 
 // LLMs
 // Config
-$config['api'] = 'openai'; // openai, mistral, ollama
+$config['api'] = 'groq'; // openai, mistral, ollama
 
 $config['openai']['apikey'] = 'openai api key';
 $config['openai']['url'] = 'https://api.openai.com/v1/chat/completions';
@@ -34,6 +34,13 @@ $config['ollama']['url'] = 'http://127.0.0.1:11434/v1/chat/completions';
 $config['ollama']['model'] = 'tinydolphin'; 
 $config['ollama']['tinydolphin']['input'] = '0';
 $config['ollama']['tinydolphin']['output'] = '0';
+
+$config['groq']['apikey'] = 'groq api key';
+$config['groq']['url'] = 'https://api.groq.com/openai/v1/chat/completions';
+$config['groq']['model'] = 'mixtral-8x7b-32768';
+$config['groq']['mixtral-8x7b-32768']['input'] = '0';
+$config['groq']['mixtral-8x7b-32768']['output'] = '0';
+
 /*
 //qwen:0.5b-chat
 

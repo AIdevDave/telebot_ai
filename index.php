@@ -7,7 +7,7 @@ $chatId = '';
 // db file name
 $db = new SQLite3('telebot_ai.db');
 
-// LLMs
+// LLMs 
 // Config
 $config['api'] = 'groq'; // openai, mistral, ollama
 
